@@ -10,6 +10,9 @@ export default function About() {
     const debt = fetch('http://localhost:3000/api/financials/debt')
         .then(response => response.json())
         .then(data => data.debt);
+    const share_price = fetch('http://localhost:3000/api/financials/share_price')
+        .then(response => response.json())
+        .then(data => data.share_price);
     return (
         <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto">
@@ -17,6 +20,7 @@ export default function About() {
                 <h3 className="text-xl text-gray-700 mb-4">Time: {time}</h3>
                 <h3 className="text-xl text-gray-700 mb-4">Revenue: ${revenue}</h3>
                 <h3 className="text-xl text-gray-700 mb-4">Debt: ${debt}</h3>
+                <h3 className="text-xl text-gray-700 mb-4">Share Price: ${share_price}</h3>
 
                 <section className="bg-white rounded-lg shadow p-6 mb-6">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h2>
