@@ -11,7 +11,7 @@ export default function Home() {
               className="font-medium text-zinc-950 dark:text-zinc-50"
               style={{
                 position: 'absolute',
-                top: '50%',
+                top: '10%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
                 display: 'flex',
@@ -19,9 +19,18 @@ export default function Home() {
                 justifyContent: 'center'
               }}
             >
-              Looking for a starting point or more information? Click here!
+              Looking for more information about Canncorp? Click here!
             </a>
           </h3>
+          <h4 className="text-lg text-gray-600 dark:text-zinc-400">
+            The automation experts of the future!
+          </h4>
+          <h4 className="text-lg text-gray-600 dark:text-zinc-400">
+            100% success rate!
+          </h4>
+          <h4 className="text-lg text-gray-600 dark:text-zinc-400">
+            We are the best, with 0 history of hacks!
+          </h4>
         
         </div>
       </main>

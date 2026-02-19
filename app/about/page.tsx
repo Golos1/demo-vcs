@@ -16,6 +16,7 @@ export default function About() {
     return (
         <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-3xl mx-auto">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-4"><a href='/' className="text-blue-600 hover:text-blue-800">← Back to Home Page</a></h2>
                 <h1 className="text-4xl font-bold text-gray-900 mb-6">About Canncorp</h1>
                 <h4 className="text-xl text-gray-700 mb-4">Time: {time}</h4>
                 <h4 className="text-xl text-gray-700 mb-4">Share Price: ${share_price} Debt: ${debt} Revenue: ${revenue}</h4>
@@ -23,17 +24,17 @@ export default function About() {
                 <section className="bg-white rounded-lg shadow p-6 mb-6">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Mission</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        We are dedicated to providing exceptional products and services to our community.
+                        We are a software development firm dedicated to providing exceptional products and services to our community.
                     </p>
                 </section>
 
                 <section className="bg-white rounded-lg shadow p-6">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Our Values</h2>
                     <ul className="list-disc list-inside text-gray-600 space-y-2">
-                        <li>Innovation and excellence</li>
-                        <li>Customer-focused approach</li>
-                        <li>Integrity and transparency</li>
-                        <li>Continuous improvement</li>
+                        <li>Innovation and excellence with modern stacks and low-ego developers.</li>
+                        <li>Customer-focused approach with responsive support engineers.</li>
+                        <li>Integrity and transparency with strict compliance protocols.</li>
+                        <li>Continuous improvement with constant surveys and feedback.</li>
                     </ul>
                 </section>
             </div>
