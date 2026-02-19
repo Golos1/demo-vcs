@@ -22,15 +22,15 @@ export default function Home() {
               Looking for more information about Canncorp? Click here!
             </a>
           </h3>
-          <h4 className="text-lg text-gray-600 dark:text-zinc-400">
+          <h1 className="text-lg text-gray-600 dark:text-zinc-400">
             The automation experts of the future!
-          </h4>
-          <h4 className="text-lg text-gray-600 dark:text-zinc-400">
+          </h1>
+          <h1 className="text-lg text-gray-600 dark:text-zinc-400">
             100% success rate!
-          </h4>
-          <h4 className="text-lg text-gray-600 dark:text-zinc-400">
+          </h1>
+          <h1 className="text-lg text-gray-600 dark:text-zinc-400">
             We are the best, with 0 history of hacks!
-          </h4>
+          </h1>
         
         </div>
       </main>
