@@ -22,16 +22,8 @@ export default function Home() {
               href="/about"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-              About us
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              ABOUT US
+            </a>
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
